@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crust & Hearth | Artisan Bakery & Boulangerie</title>
+  <meta name="description" content="Authentic artisan bakery specializing in slow-fermented sourdough, rustic crusty boules, traditional baguettes, and handcrafted morning pastries.">
+  
+  <!-- Google Fonts: Playfair Display for elegant artisan titles, Plus Jakarta Sans for clean readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Bakery Brand / Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Crust & Hearth Bakery Home">
+        <span class="brand-icon">
+          <i class="fa-solid fa-wheat-awn"></i>
+        </span>
+        <div class="brand-text">
+          <span class="brand-name">Crust & Hearth</span>
+          <span class="brand-tagline">Artisan Boulangerie</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation Bar with 2 Required Menu Items -->
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#our-story" class="nav-link" id="navOurStory">
+              <span class="link-label">Our Story</span>
+              <span class="nav-indicator"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-us" class="nav-link" id="navContactUs">
+              <span class="link-label">Contact Us</span>
+              <span class="nav-indicator"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Action / Status Badge -->
+      <div class="header-action">
+        <a href="#assortments" class="btn-header">
+          <i class="fa-solid fa-bread-slice"></i>
+          <span>Today's Batch</span>
+        </a>
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION (Bread Assortments Background) ==================== -->
+    <section class="hero-section" id="hero">
+      <!-- Dark gradient overlay ensures high legibility over the rustic bread background -->
+      <div class="hero-overlay"></div>
+      
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-in">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <span>Wood-Fired &bull; 36-Hour Slow Fermentation</span>
+        </div>
+
+        <h1 class="hero-title animate-slide-up">
+          Crafted with Patience,<br>
+          <span class="title-highlight">Baked with Passion.</span>
+        </h1>
+
+        <p class="hero-subtitle animate-slide-up delay-1">
+          Welcome to <em>Crust & Hearth</em>. Every loaf in our daily assortment is shaped by hand from stone-ground organic grains, cultured wild sourdough starter, and pure spring water.
+        </p>
+
+        <div class="hero-cta-group animate-slide-up delay-2">
+          <a href="#assortments" class="btn btn-primary">
+            <span>Explore Breads</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#our-story" class="btn btn-secondary">
+            <span>Read Our Story</span>
+          </a>
+        </div>
+
+        <!-- Bakery Highlights Bar -->
+        <div class="hero-features animate-slide-up delay-3">
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+            <div class="feature-text">
+              <strong>100% Organic</strong>
+              <span>Ancient Heirloom Grains</span>
+            </div>
+          </div>
+          <div class="feature-divider"></div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+            <div class="feature-text">
+              <strong>Slow Leavened</strong>
+              <span>36h Wild Sourdough</span>
+            </div>
+          </div>
+          <div class="feature-divider"></div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="feature-text">
+              <strong>Fresh Daily</strong>
+              <span>Out of the Oven at 5:30 AM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#our-story" class="scroll-down-indicator" aria-label="Scroll down to Our Story">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+        <span class="scroll-text">Discover More</span>
+      </a>
+    </section>
+
+    <!-- ==================== OUR STORY SECTION ==================== -->
+    <section class="story-section" id="our-story">
+      <div class="container">
+        <div class="section-badge">
+          <i class="fa-solid fa-wheat-awn"></i>
+          <span>The Art of the Loaf</span>
+        </div>
+        
+        <div class="story-grid">
+          <div class="story-content">
+            <h2 class="section-title">
+              Our Story: Returning to the Sacred Ritual of Bread
+            </h2>
+            <div class="title-underline"></div>
+            
+            <p class="story-lead">
+              At Crust & Hearth, we believe that real bread cannot be rushed. It begins not with industrial shortcuts, but with deep respect for time, craft, and the living ecosystem of wild yeast.
+            </p>
+            
+            <p class="story-body">
+              Founded by master baker Julien Vance, our bakery was born from a simple desire: to resurrect the rustic traditions of old-world European boulangeries. Our mother sourdough starter—fondly named <em>"Aura"</em>—has been lovingly fed and nurtured daily for over 14 years.
+            </p>
+
+            <p class="story-body">
+              We partner exclusively with independent organic millers who stone-grind locally grown heirloom grains. Each batch goes through a meticulous 36-hour cold fermentation process that naturally breaks down complex starches, creating our signature blistering golden crust, airy open crumb, and deeply complex caramelized aroma.
+            </p>
+
+            <!-- Story Quote Box -->
+            <blockquote class="story-quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>"Flour, water, sea salt, and patience. In their purest harmony, these four simple elements become sustenance for both body and spirit."</p>
+              <cite>&mdash; Julien Vance, Founder & Master Baker</cite>
+            </blockquote>
+
+            <!-- Key Pillars -->
+            <div class="story-pillars">
+              <div class="pillar">
+                <span class="pillar-num">01</span>
+                <h4>Wild Levain</h4>
+                <p>Zero commercial yeasts. Only natural fermentation driven by wild air and beneficial lactic cultures.</p>
+              </div>
+              <div class="pillar">
+                <span class="pillar-num">02</span>
+                <h4>Stone-Ground Flour</h4>
+                <p>Preserving the nutrient-rich wheat germ and bran that commercial refining strips away.</p>
+              </div>
+              <div class="pillar">
+                <span class="pillar-num">03</span>
+                <h4>Hearth-Baked</h4>
+                <p>Baked on authentic volcanic stone decks injected with burst steam for an unmatched blistering crust.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-visual">
+            <div class="story-image-card">
+              <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1000&q=80" alt="Fresh artisan sourdough loaves cooling on wooden bakery racks" loading="lazy">
+              <div class="story-image-badge">
+                <span class="badge-num">14+</span>
+                <span class="badge-label">Years of Culturing Our Heritage Starter</span>
+              </div>
+            </div>
+            
+            <!-- Baker's Schedule Card -->
+            <div class="baker-schedule-card">
+              <div class="schedule-header">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Daily Baker's Rhythm</span>
+              </div>
+              <ul class="schedule-timeline">
+                <li>
+                  <span class="time">03:30 AM</span>
+                  <span class="task">Hearth preheats to 485°F & initial scoring</span>
+                </li>
+                <li>
+                  <span class="time">05:15 AM</span>
+                  <span class="task">First golden sourdough loaves leave the oven</span>
+                </li>
+                <li>
+                  <span class="time">06:30 AM</span>
+                  <span class="task">Doors open with hot baguettes & morning brioche</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SIGNATURE BREAD ASSORTMENT ==================== -->
+    <section class="assortment-section" id="assortments">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span>From Our Hearth</span>
+          </div>
+          <h2 class="section-title">Today's Artisan Assortment</h2>
+          <div class="title-underline centered"></div>
+          <p class="section-desc">
+            Handcrafted in limited batches every morning. When they sell out, the ovens rest until tomorrow's dawn.
+          </p>
+        </div>
+
+        <div class="bread-grid">
+          <!-- Loaf 1 -->
+          <article class="bread-card">
+            <div class="bread-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80" alt="Country Sourdough Boule with crisp scored crust" loading="lazy">
+              <span class="bread-tag">Signature Loaf</span>
+            </div>
+            <div class="bread-info">
+              <div class="bread-title-row">
+                <h3 class="bread-name">Country Sourdough Boule</h3>
+                <span class="bread-price">$8.50</span>
+              </div>
+              <p class="bread-desc">Our flagship loaf. 36-hour cold fermented blend of hard red winter wheat and dark rye with a deep caramelized, blistered crust.</p>
+              <div class="bread-meta">
+                <span><i class="fa-regular fa-clock"></i> 36h Ferment</span>
+                <span><i class="fa-solid fa-weight-scale"></i> 900g</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Loaf 2 -->
+          <article class="bread-card">
+            <div class="bread-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=800&q=80" alt="French Baguette de Tradition with golden scoring" loading="lazy">
+              <span class="bread-tag">French Tradition</span>
+            </div>
+            <div class="bread-info">
+              <div class="bread-title-row">
+                <h3 class="bread-name">Baguette de Tradition</h3>
+                <span class="bread-price">$4.75</span>
+              </div>
+              <p class="bread-desc">Crafted strictly according to the 1993 French Bread Decree. Shattering golden crust, custard-like crumb with gentle sweet cream notes.</p>
+              <div class="bread-meta">
+                <span><i class="fa-regular fa-clock"></i> 24h Ferment</span>
+                <span><i class="fa-solid fa-weight-scale"></i> 350g</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Loaf 3 -->
+          <article class="bread-card">
+            <div class="bread-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Seeded Multigrain Harvest Loaf dusted with flour" loading="lazy">
+              <span class="bread-tag">Nutrient Rich</span>
+            </div>
+            <div class="bread-info">
+              <div class="bread-title-row">
+                <h3 class="bread-name">Seeded Harvest Loaf</h3>
+                <span class="bread-price">$9.25</span>
+              </div>
+              <p class="bread-desc">Enriched with toasted flaxseed, golden sesame, pumpkin seeds, and sunflower hearts, wrapped in a cracked grain crust.</p>
+              <div class="bread-meta">
+                <span><i class="fa-regular fa-clock"></i> 30h Ferment</span>
+                <span><i class="fa-solid fa-weight-scale"></i> 850g</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Loaf 4 -->
+          <article class="bread-card">
+            <div class="bread-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" alt="Rosemary & Sea Salt Focaccia with olive oil droplets" loading="lazy">
+              <span class="bread-tag">Daily Specialty</span>
+            </div>
+            <div class="bread-info">
+              <div class="bread-title-row">
+                <h3 class="bread-name">Rosemary & Olive Focaccia</h3>
+                <span class="bread-price">$7.00</span>
+              </div>
+              <p class="bread-desc">High hydration dough drenched in first-cold-pressed Sicilian olive oil, studded with fresh rosemary sprigs and flaky Maldon sea salt.</p>
+              <div class="bread-meta">
+                <span><i class="fa-regular fa-clock"></i> 18h Ferment</span>
+                <span><i class="fa-solid fa-weight-scale"></i> 600g</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT US SECTION ==================== -->
+    <section class="contact-section" id="contact-us">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            <span>Visit or Write to Us</span>
+          </div>
+          <h2 class="section-title">Contact Us</h2>
+          <div class="title-underline centered"></div>
+          <p class="section-desc">
+            Whether you want to reserve a custom loaf, ask about whole-grain catering, or just say hello—we'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left Column: Bakery Info, Hours, Address -->
+          <div class="contact-info-panel">
+            <div class="info-card-header">
+              <h3>Come Smell the Warm Bread</h3>
+              <p>Our doors open early every morning with coffee brewing and the scent of freshly browned butter and sourdough in the air.</p>
+            </div>
+
+            <div class="info-items-list">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="info-text">
+                  <strong>Bakery & Hearth</strong>
+                  <p>148 Artisan Boulevard, Suite 102<br>Old Mill District, Seattle, WA 98101</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="info-text">
+                  <strong>Opening Hours</strong>
+                  <p>Tuesday – Saturday: 6:30 AM – 3:30 PM<br>Sunday: 7:00 AM – 2:00 PM<br><em>(Monday: Resting & Feeding Sourdough)</em></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info-text">
+                  <strong>Direct Line</strong>
+                  <p><a href="tel:+12065550184" class="contact-link">+1 (206) 555-0184</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                  <strong>Email Inquiries</strong>
+                  <p><a href="mailto:hello@crustandhearth.com" class="contact-link">hello@crustandhearth.com</a></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pre-order Guarantee Badge -->
+            <div class="guarantee-box">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Special Loaf Orders</strong>
+                <p>Order 48 hours in advance for celebration brioche, rye wheels, or weekend holiday loaves.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contactForm" novalidate>
+              <h3 class="form-title">Send Our Bakers a Message</h3>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Your Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="fullName" name="fullName" placeholder="Eleanor Vance" required>
+                  </div>
+                  <span class="error-msg" id="nameError">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="emailAddress">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input type="email" id="emailAddress" name="emailAddress" placeholder="eleanor@example.com" required>
+                  </div>
+                  <span class="error-msg" id="emailError">Please enter a valid email address</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="inquiryType">What is this regarding?</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <select id="inquiryType" name="inquiryType">
+                    <option value="reserve">Reserve Today's Bread Batch</option>
+                    <option value="catering">Event or Wedding Catering</option>
+                    <option value="custom">Custom Flour / Special Loaf Order</option>
+                    <option value="feedback">Bakery Feedback & Compliments</option>
+                    <option value="other">General Question</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="messageText">Your Message <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="messageText" name="messageText" rows="4" placeholder="Tell us how we can help you, or which loaves you would like to reserve..." required></textarea>
+                </div>
+                <span class="error-msg" id="messageError">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-submit" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <!-- Success Notification Alert -->
+              <div class="form-success-alert" id="formSuccessAlert" role="alert">
+                <i class="fa-solid fa-circle-check"></i>
+                <div class="alert-content">
+                  <strong>Thank you! Your message has been sent.</strong>
+                  <p>Our baking team will get back to you within a few hours.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <span class="brand-icon"><i class="fa-solid fa-wheat-awn"></i></span>
+          <div class="brand-text">
+            <span class="brand-name">Crust & Hearth</span>
+            <span class="brand-tagline">Artisan Boulangerie</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          Honoring ancient grains, natural leavening, and the warmth of the community hearth since 2012.
+        </p>
+      </div>
+
+      <!-- Quick Nav Links referencing the 2 menu items -->
+      <div class="footer-links">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul>
+          <li><a href="#our-story">Our Story</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="#assortments">Fresh Assortment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4 class="footer-heading">Follow the Oven</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <p class="bake-alert">Morning bake stories posted daily at 6:00 AM on Instagram.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-row">
+        <p>&copy; 2026 Crust & Hearth Artisan Bakery. All rights reserved.</p>
+        <p class="credits">Crafted with flour, water, salt & love.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
